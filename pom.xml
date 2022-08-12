@@ -43,6 +43,14 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+		
+		<dependency>
+			<groupid>org.apache.logging.log4j</groupid>
+			<artifactid>log4j-bom</artifactid>
+			<version>${log4j2.version}</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
